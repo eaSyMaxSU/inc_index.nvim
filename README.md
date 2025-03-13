@@ -1,5 +1,9 @@
 Keymap to trigger the function in visual mode (block visual mode Ctrl-v)
+
+```
 vim.keymap.set("v", "<leader>ic", ":lua visual_block_numbering()<CR>", { desc = "Block Numbering" })
+```
+
 
 Example usage comment (for documentation in your config file)
 To use this:
