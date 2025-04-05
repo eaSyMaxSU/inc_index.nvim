@@ -1,5 +1,5 @@
 ## Description
-For incrementing numbers (dec | hex), alphbets easier, trying to improve quality of life for an asic engineering.
+For incrementing numbers (dec | hex), alphbets easier, trying to improve quality of life for an asic engineer, or others that may also need this.
 
 Example config:
 
