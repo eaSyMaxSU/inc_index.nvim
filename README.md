@@ -36,7 +36,7 @@ vim.keymap.set("v", "<leader>ic", ":IncIndex<CR>", { desc = "Increment Index in 
 -- vim.keymap.set("v", "<leader>ii", ":IncIndex<CR>", { desc = "Increment Index" })
 ```
 
-## .🚀 Usage
+## 🚀 Usage
 Enter Visual Block Mode: Press Ctrl-V.
 
 Select Block: Select the rectangular block of text across multiple lines where you want the incrementing values to appear. The width of the selection matters, as the generated number/character will be padded to fit this width.
