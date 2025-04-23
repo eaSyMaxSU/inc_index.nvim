@@ -1,6 +1,8 @@
 # IncIndex.nvim
 
-A lightweight Neovim plugin for easily incrementing numbers (decimal, hexadecimal) or characters (alphabetical) within visual block selections. Designed to improve quality of life, especially for tasks involving repetitive numbering or labeling (e.g., signal lists, register maps, code examples).
+A lightweight Neovim plugin for easily incrementing numbers (decimal, hexadecimal) or characters (alphabetical) within visual block selections.
+
+Designed to improve quality of life, especially for tasks involving repetitive numbering or labeling (e.g., signal lists, register maps).
 
 ## ✨ Features
 - Increment numbers: Supports decimal (d) and hexadecimal (h) formats.
