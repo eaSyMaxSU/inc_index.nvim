@@ -14,7 +14,6 @@ Using lazy.nvim
 ```
 {
   "eaSyMaxSU/inc-index.nvim",
-  -- Optional: Specify dependencies, configuration, etc.
   config = function()
     require("inc_index").setup()
   end,
