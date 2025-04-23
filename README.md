@@ -36,12 +36,17 @@ vim.keymap.set("v", "<leader>ic", ":IncIndex<CR>", { desc = "Increment Index in 
 
 ## .🚀 Usage
 Enter Visual Block Mode: Press Ctrl-V.
+
 Select Block: Select the rectangular block of text across multiple lines where you want the incrementing values to appear. The width of the selection matters, as the generated number/character will be padded to fit this width.
+
 Run Command: Press your configured keymap (e.g., <leader>ic) or manually type :IncIndex<CR>.
+
 Enter Format & Start Value: You will be prompted to enter the format and starting value.
+
 Use one of the following formats:
 - d<number>: Start incrementing with a decimal number (e.g., d1, d0, d100).
 - h<hex_number>: Start incrementing with a hexadecimal number (e.g., h0, hA, h1f).
 - a<character>: Start incrementing alphabetically from the given character. Case determines the sequence (e.g., ac starts c, d, e..., aC starts C, D, E...). (Note: The sequence stops at 'z' or 'Z')
+
 Press Enter: The selected block will be replaced with the incrementing sequence.
 
