@@ -268,7 +268,7 @@ function M.setup()
 		range = true,
 	})
 
-	vim.keymap.set("v", "<leader>ic", ":IncIndex<CR>", { desc = "Increment Index in Visual Block" })
+	vim.keymap.set("v", "<leader>ii", ":IncIndex<CR>", { desc = "Increment Index in Visual Block" })
 end
 
 return M

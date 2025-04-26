@@ -26,14 +26,17 @@ Using lazy.nvim
 The plugin needs to be set up.
 ```
 -- Load the setup function (required for both installation methods)
-require("inc_index").setup()
+  require("inc_index").setup()
 
 
 -- Example custom keymap (optional, the setup function creates the command)
--- The default command is :IncIndex
-vim.keymap.set("v", "<leader>ic", ":IncIndex<CR>", { desc = "Increment Index in Visual Block" })
--- Or map it to something else:
--- vim.keymap.set("v", "<leader>ii", ":IncIndex<CR>", { desc = "Increment Index" })
+	-- Keymap for incrementing in visual mode
+	vim.keymap.set(
+		"v",
+		"<leader>ii",
+		":IncIndex<CR>",
+		{ desc = "Increment Index in Visual Block", noremap = true, silent = true }
+	)
 ```
 
 ## 🚀 Usage
